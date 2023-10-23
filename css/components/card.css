@@ -1,0 +1,27 @@
+.card-white {
+  background-color: white;
+  padding: 8px;
+  width: 250px;
+}
+
+.card-white-image {
+  background-size: cover;
+  height: 150px;
+}
+
+.list-horizontal {
+  text-align: right;
+  color: #B0B0B0;
+  padding-top: 8px;
+  margin: 0;
+}
+
+.list-horizontal li {
+  display: inline-block;
+}
+
+.card-author {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}

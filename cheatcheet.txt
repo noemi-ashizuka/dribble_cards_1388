@@ -1,0 +1,59 @@
+card image url
+https://images.unsplash.com/photo-1459664018906-085c36f472af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
+random image
+background-image: url('https://source.unsplash.com/random');
+
+avatar
+https://ca.slack-edge.com/T02NE0241-UFN01H4F7-e4621fb8b0bb-512
+
+fontawesome
+<li><i class="fas fa-eye"></i> 90</li>
+<li><i class="fas fa-comment"></i> 10</li>
+<li><i class="fas fa-heart"></i> 24</li>
+
+
+Name color: #4B94BD
+Icons color: #B0B0B0
+
+
+
+
+
+
+BUTTON HOVER
+===================================
+.btn {
+  background: white;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 4px;
+  color: gray;
+  padding: 4px 8px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.card-white .btn {
+  opacity: 0;
+  transition: .3s;
+
+}
+
+.card-white:hover .btn {
+  opacity: 1;
+}
+
+============================================
+
+GRID
+============================================
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+=============================================
